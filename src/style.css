@@ -1,0 +1,69 @@
+/* styles.css */
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4CAF50; /* Dark background color */
+    margin: 0;
+    padding: 20px; /* Add margin around the game */
+  }
+  
+  .game-board {
+    background-color: #fff; /* White background for the game board */
+    padding: 20px; /* Add padding to the game board */
+    border-radius: 8px; /* Rounded corners for the game board */
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .square {
+    background-color: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 32px; /* Increase font size for the squares */
+    font-weight: bold;
+    line-height: 44px; /* Increase line height for the squares */
+    height: 44px; /* Increase height of the squares */
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 44px; /* Increase width of the squares */
+  }
+  
+  .square:focus {
+    outline: none; /* Remove focus outline */
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
+  ol {
+    padding-left: 0;
+  }
+  
+  ol > li {
+    list-style: none;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
